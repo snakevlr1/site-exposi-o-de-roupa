@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fdfdfd;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.social-links a img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+.social-links a:hover {
+    text-decoration: underline;
+    color: #1DA1F2;
+}
